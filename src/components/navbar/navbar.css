@@ -3,7 +3,7 @@
   & nav {
     width: 4rem;
     height: calc(100vh - 6rem);
-    background-color: #979797;
+    background-color: #fcff5da2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

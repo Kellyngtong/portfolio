@@ -1,0 +1,11 @@
+.personal-panel {
+  gap: 1rem;
+  & div {
+    display: flex;
+    gap: 1rem;
+  }
+  & img {
+    size: 1.2;
+    border-radius: 50%;
+  }
+}
