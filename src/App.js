@@ -4,6 +4,9 @@ import Navbar from "./components/navbar/navbar.component.tsx";
 import Panel from "./components/panel/panel.component.tsx";
 import PanelOne from "./components/views/panels/panelOne/panelOne.component.tsx";
 import PanelPersonal from "./components/views/panels/panelPersonal/panelPersonal.component.tsx";
+import PanelTwo from "./components/views/panels/panelTwo/panelTwo.component.tsx";
+import PanelThree from "./components/views/panels/panelThree/panelThree.component.tsx";
+import PanelFour from "./components/views/panels/panelFour/panelFour.component.tsx";
 
 function App() {
   const [actualPanel, setActualPanel] = useState(0);
@@ -23,38 +26,17 @@ function App() {
         )}
         {actualPanel === 1 && (
           <Panel customClass="">
-            <button
-              onClick={() => {
-                setActualPanel(actualPanel + 1);
-              }}
-            >
-              segunda prueba {actualPanel}
-            </button>
-            <div>lorem ipsum</div>
+            <PanelTwo />
           </Panel>
         )}
         {actualPanel === 2 && (
           <Panel customClass="">
-            <button
-              onClick={() => {
-                setActualPanel(actualPanel + 1);
-              }}
-            >
-              tercera prueba {actualPanel}
-            </button>
-            <div>lorem ipsum</div>
+            <PanelThree />
           </Panel>
         )}
         {actualPanel === 3 && (
           <Panel customClass="">
-            <button
-              onClick={() => {
-                setActualPanel(actualPanel + 1);
-              }}
-            >
-              cuarta prueba {actualPanel}
-            </button>
-            <div>lorem ipsum</div>
+            <PanelFour />
           </Panel>
         )}
         {personalPanel ? (
