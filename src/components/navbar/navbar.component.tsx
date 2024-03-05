@@ -13,7 +13,7 @@ const Navbar = ({ elements, setter, getter }: NavbarProps) => {
     { name: "In touch", panelId: 0 },
     { name: "projects", panelId: 1 },
     { name: "career", panelId: 2 },
-    { name: "contactInfo", panelId: 3 },
+    { name: "Studies", panelId: 3 },
   ];
 
   return (

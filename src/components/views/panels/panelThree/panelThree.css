@@ -1,17 +1,27 @@
-.panel-PanelOne {
+.panel-PanelThree {
   background-color: yellow;
-  & span {
-    font-size: 3rem;
-    font-family: "Madimi One", sans-serif;
-  }
-
-  & > span :first-child {
-    font-family: "Londrina Outline", sans-serif;
-  }
 
   & article {
     display: flex;
     flex-direction: column;
     align-items: baseline;
+    margin: 0px 1rem;
+  }
+  & article .nautico {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  & .nautico h1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  & h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+  }
+  & small {
+    font-weight: 600;
   }
 }

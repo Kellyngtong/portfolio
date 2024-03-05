@@ -25,17 +25,17 @@ function App() {
           </Panel>
         )}
         {actualPanel === 1 && (
-          <Panel customClass="">
+          <Panel customClass="panel-PanelTwo">
             <PanelTwo />
           </Panel>
         )}
         {actualPanel === 2 && (
-          <Panel customClass="">
+          <Panel customClass="panel-PanelThree">
             <PanelThree />
           </Panel>
         )}
         {actualPanel === 3 && (
-          <Panel customClass="">
+          <Panel customClass="panel-PanelFour">
             <PanelFour />
           </Panel>
         )}

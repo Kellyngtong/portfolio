@@ -9,36 +9,38 @@ function PanelTwo({ setPersonalPanel }: PanelOneProps) {
   return (
     <>
       <article>
-        <a
-          target="_blank"
-          href="http://im-not-netflix.vercel.app"
-          rel="noreferrer"
-        >
-          im-not-netflix.vercel.app
-        </a>
-        <span>
+        <section className="">
+          <a
+            target="_blank"
+            href="http://im-not-netflix.vercel.app"
+            rel="noreferrer"
+          >
+            im-not-netflix.app
+          </a>
+        </section>
+
+        <section>
           <a
             target="_blank"
             href="http://the-kitten-api.vercel.app"
             rel="noreferrer"
           >
-            the-kitten-api.vercel.app
+            the-kitten-api.app
           </a>
-        </span>
+        </section>
+        <section className="solarsystem">
+          <a
+            target="_blank"
+            href="https://solarsystem.aitorpsanchez.dev/"
+            rel="noreferrer"
+          >
+            solarsystem.aitorpsanchez.dev
+          </a>
+        </section>
       </article>
-      <span>I made this portfolio</span>
-      <span>To</span>
-      <span>
-        Apply on{" "}
-        <b
-          onClick={() => {
-            setPersonalPanel(false);
-          }}
-        >
-          Qraneos. S.L.
-        </b>
-      </span>
-      <span>Enjoy it!</span>
+      <span>Those are a few</span>
+      <span>projects</span>
+      <span>I've developed.</span>
     </>
   );
 }

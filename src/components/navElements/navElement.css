@@ -8,12 +8,20 @@
   transition: 0.3s all ease-in-out;
   background-color: transparent;
   &:hover {
-    background-color: green;
+    background-color: rgba(209, 216, 4, 1);
   }
   & div {
     transform: rotate(-90deg);
   }
 }
+
+/* Color Theme Swatches in RGBA
+.WHERE-NEON-GREEN-MEETS-BLUE-–-Iceland-1-rgba { color: rgba(15, 45, 63, 1); }
+.WHERE-NEON-GREEN-MEETS-BLUE-–-Iceland-2-rgba { color: rgba(111, 150, 165, 1); }
+.WHERE-NEON-GREEN-MEETS-BLUE-–-Iceland-3-rgba { color: rgba(209, 216, 4, 1); }
+.WHERE-NEON-GREEN-MEETS-BLUE-–-Iceland-4-rgba { color: rgba(185, 191, 3, 1); }
+.WHERE-NEON-GREEN-MEETS-BLUE-–-Iceland-5-rgba { color: rgba(135, 140, 2, 1); }
+*/
 
 .navElement-component.menu-highlight {
   background-color: yellow !important;

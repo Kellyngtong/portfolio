@@ -1,17 +1,15 @@
-.panel-PanelOne {
-  background-color: yellow;
+.panel-PanelTwo {
   & span {
     font-size: 3rem;
-    font-family: "Madimi One", sans-serif;
   }
-
-  & > span :first-child {
-    font-family: "Londrina Outline", sans-serif;
-  }
-
   & article {
     display: flex;
     flex-direction: column;
     align-items: baseline;
+  }
+
+  & article section {
+    display: flex;
+    justify-content: center;
   }
 }

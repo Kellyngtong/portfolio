@@ -5,7 +5,29 @@
     gap: 1rem;
   }
   & img {
-    size: 1.2;
     border-radius: 50%;
+    overflow: hidden;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  & .perfil {
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+  }
+  & .insta {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  & span {
+    font-size: 2.2rem;
+    font-family: "Madimi One", sans-serif;
+    font-style: italic;
+  }
+  & section img {
+    width: 1.8rem;
+    height: 1.8rem;
+    object-fit: contain;
+    border-radius: 0px;
   }
 }
