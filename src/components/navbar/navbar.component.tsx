@@ -11,8 +11,8 @@ interface NavbarProps {
 const Navbar = ({ elements, setter, getter }: NavbarProps) => {
   const navElements = [
     { name: "In touch", panelId: 0 },
-    { name: "projects", panelId: 1 },
-    { name: "career", panelId: 2 },
+    { name: "Projects", panelId: 1 },
+    { name: "Career", panelId: 2 },
     { name: "Studies", panelId: 3 },
   ];
 

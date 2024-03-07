@@ -1,32 +1,30 @@
 .personal-panel {
-  gap: 1rem;
+  gap: 1vw;
   & div {
     display: flex;
-    gap: 1rem;
+    gap: 1vw;
   }
   & img {
     border-radius: 50%;
     overflow: hidden;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 4vw;
+    height: 4vw;
   }
   & .perfil {
-    width: 15rem;
-    height: 15rem;
+    width: 25vw;
+    height: 25vw;
     overflow: hidden;
   }
-  & .insta {
-    width: 3.5rem;
-    height: 3.5rem;
-  }
+
   & span {
-    font-size: 2.2rem;
+    font-size: 3vw;
     font-family: "Madimi One", sans-serif;
     font-style: italic;
   }
+
   & section img {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 2vw;
+    height: 2vw;
     object-fit: contain;
     border-radius: 0px;
   }

@@ -1,0 +1,46 @@
+.careerExperience-component {
+  display: flex;
+  gap: 1rem;
+  & div span:first-child {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    width: 5rem;
+    text-align: center;
+  }
+
+  & aside {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0rem;
+
+    & span:first-child {
+      width: 20px;
+      height: 20px;
+      background-color: orange;
+      border-radius: 50%;
+      border: solid 2px rgb(19, 59, 95);
+    }
+    & span:nth-child(2) {
+      width: 5px;
+      height: calc(100% - 20px - 1rem);
+      background-color: #6f96a6;
+      border: solid 1.5px rgb(19, 59, 95);
+      border-radius: 1rem;
+    }
+  }
+  & section {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+    & h2 {
+      margin-top: 0.5rem;
+    }
+  }
+}

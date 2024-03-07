@@ -9,7 +9,7 @@ const PanelOne = ({ setPersonalPanel }: PanelOneProps) => {
   return (
     <>
       <article>
-        <span>Hello,</span>
+        <span> Welcome,</span>
         <span>Aitor here</span>
       </article>
       <span>I made this portfolio</span>

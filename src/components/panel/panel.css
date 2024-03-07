@@ -8,6 +8,26 @@
   width: 50%;
   overflow: hidden;
 }
+@media only screen and (max-width: 600px) {
+  .panel-component {
+    width: 100%;
+  }
+  .rightPanel {
+    animation: fadeOut 0.3s ease-in-out;
+    width: 0;
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      width: 100%;
+    }
+    to {
+      opacity: 0;
+      width: 0%;
+    }
+  }
+}
 
 .rightPanel {
   background-color: rgb(19, 59, 95);

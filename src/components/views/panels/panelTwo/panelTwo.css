@@ -3,13 +3,61 @@
     font-size: 3rem;
   }
   & article {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
+    max-width: 80%;
+    margin-top: 5%;
+    border: solid 0.2vw;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5%;
+  }
+  & article > a {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.35rem;
+  }
+  & article > aside {
+    margin-top: 1vh;
+    font-size: 1.5rem;
   }
 
-  & article section {
+  & div {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    line-height: 0.5vh;
+    border: solid 0.2vw;
+    border-radius: 15px;
+    width: fit-content;
+    font-size: 1.1vw;
+    padding: 0.2vw;
+  }
+  & header {
+    width: 65%;
+  }
+  & header > div {
+    padding-right: 2.5rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    & div {
+      line-height: 0vh;
+      border: solid 0.6vw;
+      font-size: 3.5vw;
+    }
+    & article {
+      border: solid 0.6vw;
+    }
+    & section {
+      justify-content: center;
+    }
+
+    & article > a {
+      font-size: 1rem;
+    }
+    & article > aside {
+      margin-top: 1vh;
+      font-size: 1rem;
+    }
   }
 }
